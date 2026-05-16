@@ -75,7 +75,7 @@ This dataset is used for:
 ## Official Source
 
 :contentReference[oaicite:0]{index=0}
-
+Link : https://amazon-reviews-2023.github.io
 ---
 
 ## Storage Location
@@ -128,7 +128,7 @@ This dataset is mainly used for:
 ## Official Source
 
 :contentReference[oaicite:1]{index=1}
-
+Link : https://www.kaggle.com/datasets/retailrocket/ecommerce-dataset
 ---
 
 ## Storage Location
@@ -182,7 +182,7 @@ This dataset supports:
 ## Official Source
 
 :contentReference[oaicite:2]{index=2}
-
+Link : https://www.kaggle.com/datasets/yasserh/instacart-online-grocery-basket-analysis-dataset
 ---
 
 ## Storage Location
