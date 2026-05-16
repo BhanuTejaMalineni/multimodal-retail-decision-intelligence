@@ -1,0 +1,171 @@
+{
+  "rq": "RQ1",
+  "table_1_1": [
+    {
+      "Model": "LSTM baseline",
+      "Demand Forecast MAE (\u2193)": 0.1318,
+      "Recommendation NDCG@10 (\u2191)": 0.9767,
+      "Promotion Response F1 (\u2191)": 0.5839,
+      "Decision Utility Score (\u2191)": 0.5381
+    },
+    {
+      "Model": "Multimodal Transformer",
+      "Demand Forecast MAE (\u2193)": 0.0931,
+      "Recommendation NDCG@10 (\u2191)": 0.9767,
+      "Promotion Response F1 (\u2191)": 0.4886,
+      "Decision Utility Score (\u2191)": 0.5598
+    },
+    {
+      "Model": "GNN + Multimodal",
+      "Demand Forecast MAE (\u2193)": 0.0606,
+      "Recommendation NDCG@10 (\u2191)": 0.9967,
+      "Promotion Response F1 (\u2191)": 0.5659,
+      "Decision Utility Score (\u2191)": 0.5896
+    },
+    {
+      "Model": "LightGCN",
+      "Demand Forecast MAE (\u2193)": 0.0617,
+      "Recommendation NDCG@10 (\u2191)": 0.9999,
+      "Promotion Response F1 (\u2191)": 0.5659,
+      "Decision Utility Score (\u2191)": 0.5573
+    },
+    {
+      "Model": "SASRec",
+      "Demand Forecast MAE (\u2193)": 0.1324,
+      "Recommendation NDCG@10 (\u2191)": 0.7975,
+      "Promotion Response F1 (\u2191)": 0.5839,
+      "Decision Utility Score (\u2191)": 0.5381
+    },
+    {
+      "Model": "Proposed Framework",
+      "Demand Forecast MAE (\u2193)": 0.0422,
+      "Recommendation NDCG@10 (\u2191)": 0.9994,
+      "Promotion Response F1 (\u2191)": 0.6905,
+      "Decision Utility Score (\u2191)": 0.8767
+    }
+  ],
+  "table_1_2": [
+    {
+      "Comparison": "Proposed vs Multimodal Transformer",
+      "Metric": "MAE",
+      "Mean Difference": 0.0509,
+      "p-value": 0.0,
+      "Effect Size (Cohen's d)": -73.441
+    },
+    {
+      "Comparison": "Proposed vs GNN + Multimodal",
+      "Metric": "NDCG@10",
+      "Mean Difference": 0.0028,
+      "p-value": 0.0009,
+      "Effect Size (Cohen's d)": 3.939
+    },
+    {
+      "Comparison": "Proposed vs GNN + Multimodal",
+      "Metric": "F1",
+      "Mean Difference": 0.1246,
+      "p-value": 0.0054,
+      "Effect Size (Cohen's d)": 2.447
+    },
+    {
+      "Comparison": "Proposed vs Best Baseline",
+      "Metric": "Utility Score",
+      "Mean Difference": 0.2871,
+      "p-value": 0.0003,
+      "Effect Size (Cohen's d)": 5.063
+    }
+  ],
+  "model_means": [
+    {
+      "model": "LSTM baseline",
+      "demand_mae": 0.1318,
+      "ndcg": 0.9767,
+      "promo_f1": 0.5839,
+      "decision_utility": 0.5381
+    },
+    {
+      "model": "Multimodal Transformer",
+      "demand_mae": 0.0931,
+      "ndcg": 0.9767,
+      "promo_f1": 0.4886,
+      "decision_utility": 0.5598
+    },
+    {
+      "model": "GNN + Multimodal",
+      "demand_mae": 0.0606,
+      "ndcg": 0.9967,
+      "promo_f1": 0.5659,
+      "decision_utility": 0.5896
+    },
+    {
+      "model": "LightGCN",
+      "demand_mae": 0.0617,
+      "ndcg": 0.9999,
+      "promo_f1": 0.5659,
+      "decision_utility": 0.5573
+    },
+    {
+      "model": "SASRec",
+      "demand_mae": 0.1324,
+      "ndcg": 0.7975,
+      "promo_f1": 0.5839,
+      "decision_utility": 0.5381
+    },
+    {
+      "model": "Proposed Framework",
+      "demand_mae": 0.0422,
+      "ndcg": 0.9994,
+      "promo_f1": 0.6905,
+      "decision_utility": 0.8767
+    }
+  ],
+  "di_profiles": {
+    "LSTM baseline": {
+      "Accuracy": 0.016523576472211476,
+      "Business Utility": 0.2698639078086743,
+      "Calibration": 0.6,
+      "Intervention Validity": 0.35,
+      "Explainability": 0.25,
+      "Robustness": 0.55
+    },
+    "Multimodal Transformer": {
+      "Accuracy": 0.305440153583002,
+      "Business Utility": 0.31193881778019544,
+      "Calibration": 0.6,
+      "Intervention Validity": 0.35,
+      "Explainability": 0.25,
+      "Robustness": 0.55
+    },
+    "GNN + Multimodal": {
+      "Accuracy": 0.5479880338015747,
+      "Business Utility": 0.3698868541622503,
+      "Calibration": 0.7,
+      "Intervention Validity": 0.44999999999999996,
+      "Explainability": 0.45,
+      "Robustness": 0.65
+    },
+    "LightGCN": {
+      "Accuracy": 0.5393833970263934,
+      "Business Utility": 0.30715973157298115,
+      "Calibration": 0.6,
+      "Intervention Validity": 0.35,
+      "Explainability": 0.25,
+      "Robustness": 0.55
+    },
+    "SASRec": {
+      "Accuracy": 0.012587773819604964,
+      "Business Utility": 0.2698639078086743,
+      "Calibration": 0.6,
+      "Intervention Validity": 0.35,
+      "Explainability": 0.25,
+      "Robustness": 0.55
+    },
+    "Proposed Framework": {
+      "Accuracy": 0.6851423344208754,
+      "Business Utility": 0.9276681193233953,
+      "Calibration": 0.7999999999999999,
+      "Intervention Validity": 0.6499999999999999,
+      "Explainability": 0.8,
+      "Robustness": 0.8
+    }
+  }
+}

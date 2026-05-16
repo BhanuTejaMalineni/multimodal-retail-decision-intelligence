@@ -1,0 +1,26 @@
+name: thesis-env
+
+channels:
+  - pytorch
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - pip
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - jupyter
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pip:
+      - transformers
+      - sentence-transformers
+      - torch-geometric
+      - plotly
+      - networkx
+      - xgboost
+      - lightgbm

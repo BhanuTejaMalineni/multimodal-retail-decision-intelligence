@@ -1,0 +1,5 @@
+Scenario,Price Change,Promotion Level,Inventory Adjustment,Predicted Demand Change,Predicted Revenue Change
+S1,-5%,Medium,+10%,-51.5%,-48.7%
+S2,-10%,High,+20%,-86.7%,-78.8%
+S3,+0%,High,+5%,-87.2%,-75.5%
+S4,+3%,Low,0%,-26.1%,-22.4%

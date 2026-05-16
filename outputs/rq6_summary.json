@@ -1,0 +1,72 @@
+{
+  "rq": "RQ6",
+  "table_6_1": [
+    {
+      "Setting": "Standard setting",
+      "Multimodal Transformer": 0.8521,
+      "GNN + Multimodal": 0.8637,
+      "Proposed Framework": 0.8719
+    },
+    {
+      "Setting": "Sparse transactions",
+      "Multimodal Transformer": 0.8016,
+      "GNN + Multimodal": 0.8129,
+      "Proposed Framework": 0.8387
+    },
+    {
+      "Setting": "Noisy text reviews",
+      "Multimodal Transformer": 0.8112,
+      "GNN + Multimodal": 0.8282,
+      "Proposed Framework": 0.8468
+    },
+    {
+      "Setting": "Shifted product domain",
+      "Multimodal Transformer": 0.8184,
+      "GNN + Multimodal": 0.826,
+      "Proposed Framework": 0.8352
+    }
+  ],
+  "table_6_2": [
+    {
+      "Model": "Multimodal Transformer",
+      "ECE (\u2193)": 0.097,
+      "Prediction Variance (\u2193)": 5.548,
+      "Confidence Drift (\u2193)": 0.034,
+      "Stability Score (\u2191)": 0.935
+    },
+    {
+      "Model": "GNN + Multimodal",
+      "ECE (\u2193)": 0.066,
+      "Prediction Variance (\u2193)": 5.544,
+      "Confidence Drift (\u2193)": 0.035,
+      "Stability Score (\u2191)": 0.95
+    },
+    {
+      "Model": "Proposed Framework",
+      "ECE (\u2193)": 0.054,
+      "Prediction Variance (\u2193)": 5.542,
+      "Confidence Drift (\u2193)": 0.035,
+      "Stability Score (\u2191)": 0.955
+    }
+  ],
+  "retention_matrix": {
+    "Multimodal Transformer": {
+      "Standard": 100.0,
+      "Sparse": 94.1,
+      "Noisy": 95.2,
+      "Shifted": 96.0
+    },
+    "GNN + Multimodal": {
+      "Standard": 100.0,
+      "Sparse": 94.1,
+      "Noisy": 95.9,
+      "Shifted": 95.6
+    },
+    "Proposed Framework": {
+      "Standard": 100.0,
+      "Sparse": 96.2,
+      "Noisy": 97.1,
+      "Shifted": 95.8
+    }
+  }
+}

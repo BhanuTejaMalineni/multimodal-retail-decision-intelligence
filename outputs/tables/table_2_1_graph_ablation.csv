@@ -1,0 +1,5 @@
+Configuration,NDCG@10 (↑),Recall@20 (↑),Demand MAE (↓),Decision Utility Score (↑)
+No graph,0.9805,1.0,1.2452,0.8657
+Graph without context nodes,0.9915,1.0,1.212,0.8783
+Graph without promotion edges,0.9923,1.0,1.2007,0.88
+Full heterogeneous graph,0.9912,1.0,1.2152,0.8778

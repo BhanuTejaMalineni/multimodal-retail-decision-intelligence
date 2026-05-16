@@ -1,0 +1,7 @@
+Model,Predictive Score (↑),Causal Validity (↑),Explanation Quality (↑),Business Utility (↑),Overall DI Score (↑)
+LSTM baseline,0.47,0.105,0.305,0.614,0.373
+Multimodal Transformer,0.558,0.118,0.51,0.639,0.456
+GNN + Multimodal,0.686,0.137,0.715,0.673,0.553
+LightGCN,0.683,0.076,0.305,0.636,0.425
+SASRec,0.414,0.076,0.305,0.614,0.352
+Proposed Framework,0.779,0.19,0.86,1.0,0.707

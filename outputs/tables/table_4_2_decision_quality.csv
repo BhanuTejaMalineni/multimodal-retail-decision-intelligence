@@ -1,0 +1,5 @@
+Decision Metric,Baseline Policy,Proposed Counterfactual Policy,Relative Improvement
+Campaign response prediction accuracy,0.74,0.822,+11.0%
+Stockout rate (lower is better),0.01,0.0,+100.0%
+Promotion ROI (rev per promoted item),-2816.17,-876.557,+68.9%
+Demand-forecast R²,0.019,0.519,+2680.6%

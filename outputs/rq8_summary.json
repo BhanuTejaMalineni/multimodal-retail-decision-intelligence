@@ -1,0 +1,95 @@
+{
+  "rq": "RQ8",
+  "table_8_1": [
+    {
+      "Hyperparameter": "gnn_dim",
+      "Value": 16.0,
+      "DI mean (3 seeds)": 0.9141,
+      "DI std": 0.0019,
+      "\u0394 from default DI": 0.4141
+    },
+    {
+      "Hyperparameter": "gnn_dim",
+      "Value": 32.0,
+      "DI mean (3 seeds)": 0.8759,
+      "DI std": 0.0018,
+      "\u0394 from default DI": 0.3759
+    },
+    {
+      "Hyperparameter": "gnn_dim",
+      "Value": 64.0,
+      "DI mean (3 seeds)": 0.9016,
+      "DI std": 0.0018,
+      "\u0394 from default DI": 0.4016
+    },
+    {
+      "Hyperparameter": "gnn_layers",
+      "Value": 1.0,
+      "DI mean (3 seeds)": 0.8759,
+      "DI std": 0.0018,
+      "\u0394 from default DI": 0.3759
+    },
+    {
+      "Hyperparameter": "gnn_layers",
+      "Value": 2.0,
+      "DI mean (3 seeds)": 0.8759,
+      "DI std": 0.0018,
+      "\u0394 from default DI": 0.3759
+    },
+    {
+      "Hyperparameter": "gnn_layers",
+      "Value": 3.0,
+      "DI mean (3 seeds)": 0.8759,
+      "DI std": 0.0018,
+      "\u0394 from default DI": 0.3759
+    },
+    {
+      "Hyperparameter": "notears_lambda",
+      "Value": 0.01,
+      "DI mean (3 seeds)": 0.8759,
+      "DI std": 0.0018,
+      "\u0394 from default DI": 0.3759
+    },
+    {
+      "Hyperparameter": "notears_lambda",
+      "Value": 0.03,
+      "DI mean (3 seeds)": 0.8759,
+      "DI std": 0.0018,
+      "\u0394 from default DI": 0.3759
+    },
+    {
+      "Hyperparameter": "notears_lambda",
+      "Value": 0.1,
+      "DI mean (3 seeds)": 0.8758,
+      "DI std": 0.0018,
+      "\u0394 from default DI": 0.3758
+    },
+    {
+      "Hyperparameter": "topk",
+      "Value": 5.0,
+      "DI mean (3 seeds)": 0.8579,
+      "DI std": 0.0018,
+      "\u0394 from default DI": 0.3579
+    },
+    {
+      "Hyperparameter": "topk",
+      "Value": 10.0,
+      "DI mean (3 seeds)": 0.8759,
+      "DI std": 0.0018,
+      "\u0394 from default DI": 0.3759
+    },
+    {
+      "Hyperparameter": "topk",
+      "Value": 20.0,
+      "DI mean (3 seeds)": 0.8863,
+      "DI std": 0.0018,
+      "\u0394 from default DI": 0.3863
+    }
+  ],
+  "cv_per_axis": {
+    "gnn_dim": 0.0217,
+    "gnn_layers": 0.0,
+    "notears_lambda": 0.0001,
+    "topk": 0.0165
+  }
+}

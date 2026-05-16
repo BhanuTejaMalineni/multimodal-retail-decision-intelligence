@@ -1,0 +1,89 @@
+{
+  "rq": "RQ7",
+  "table_7_1": [
+    {
+      "Model": "LSTM baseline",
+      "Predictive Score (\u2191)": 0.47,
+      "Causal Validity (\u2191)": 0.105,
+      "Explanation Quality (\u2191)": 0.305,
+      "Business Utility (\u2191)": 0.614,
+      "Overall DI Score (\u2191)": 0.373
+    },
+    {
+      "Model": "Multimodal Transformer",
+      "Predictive Score (\u2191)": 0.558,
+      "Causal Validity (\u2191)": 0.118,
+      "Explanation Quality (\u2191)": 0.51,
+      "Business Utility (\u2191)": 0.639,
+      "Overall DI Score (\u2191)": 0.456
+    },
+    {
+      "Model": "GNN + Multimodal",
+      "Predictive Score (\u2191)": 0.686,
+      "Causal Validity (\u2191)": 0.137,
+      "Explanation Quality (\u2191)": 0.715,
+      "Business Utility (\u2191)": 0.673,
+      "Overall DI Score (\u2191)": 0.553
+    },
+    {
+      "Model": "LightGCN",
+      "Predictive Score (\u2191)": 0.683,
+      "Causal Validity (\u2191)": 0.076,
+      "Explanation Quality (\u2191)": 0.305,
+      "Business Utility (\u2191)": 0.636,
+      "Overall DI Score (\u2191)": 0.425
+    },
+    {
+      "Model": "SASRec",
+      "Predictive Score (\u2191)": 0.414,
+      "Causal Validity (\u2191)": 0.076,
+      "Explanation Quality (\u2191)": 0.305,
+      "Business Utility (\u2191)": 0.614,
+      "Overall DI Score (\u2191)": 0.352
+    },
+    {
+      "Model": "Proposed Framework",
+      "Predictive Score (\u2191)": 0.779,
+      "Causal Validity (\u2191)": 0.19,
+      "Explanation Quality (\u2191)": 0.86,
+      "Business Utility (\u2191)": 1.0,
+      "Overall DI Score (\u2191)": 0.707
+    }
+  ],
+  "table_7_2": [
+    {
+      "Outcome Area": "Campaign response prediction accuracy",
+      "Baseline": 0.74,
+      "Proposed Framework": 1.08,
+      "Improvement": "+45.9%"
+    },
+    {
+      "Outcome Area": "Pricing decision acceptance rate",
+      "Baseline": "61%",
+      "Proposed Framework": "79%",
+      "Improvement": "+18.0 pts"
+    },
+    {
+      "Outcome Area": "Inventory planning alignment",
+      "Baseline": 0.69,
+      "Proposed Framework": 1.0,
+      "Improvement": "+44.9%"
+    },
+    {
+      "Outcome Area": "Explanation satisfaction score",
+      "Baseline": 2.8,
+      "Proposed Framework": 4.3,
+      "Improvement": "+53.6%"
+    }
+  ],
+  "sources": {
+    "rq_summaries_loaded": [
+      "RQ1",
+      "RQ2",
+      "RQ3",
+      "RQ4",
+      "RQ5",
+      "RQ6"
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+Effect,Method,Estimate
+Promotion → Demand,DoWhy backdoor.linear,-0.0162
+Price → Demand,DoWhy backdoor.linear,-0.0
+Visibility → Conversion,DoWhy backdoor.linear,-0.0038

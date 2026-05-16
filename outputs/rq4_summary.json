@@ -1,0 +1,105 @@
+{
+  "rq": "RQ4",
+  "table_4_1": [
+    {
+      "Scenario": "S1",
+      "Price Change": "-5%",
+      "Promotion Level": "Medium",
+      "Inventory Adjustment": "+10%",
+      "Predicted Demand Change": "-51.5%",
+      "Predicted Revenue Change": "-48.7%"
+    },
+    {
+      "Scenario": "S2",
+      "Price Change": "-10%",
+      "Promotion Level": "High",
+      "Inventory Adjustment": "+20%",
+      "Predicted Demand Change": "-86.7%",
+      "Predicted Revenue Change": "-78.8%"
+    },
+    {
+      "Scenario": "S3",
+      "Price Change": "+0%",
+      "Promotion Level": "High",
+      "Inventory Adjustment": "+5%",
+      "Predicted Demand Change": "-87.2%",
+      "Predicted Revenue Change": "-75.5%"
+    },
+    {
+      "Scenario": "S4",
+      "Price Change": "+3%",
+      "Promotion Level": "Low",
+      "Inventory Adjustment": "0%",
+      "Predicted Demand Change": "-26.1%",
+      "Predicted Revenue Change": "-22.4%"
+    }
+  ],
+  "table_4_2": [
+    {
+      "Decision Metric": "Campaign response prediction accuracy",
+      "Baseline Policy": 0.74,
+      "Proposed Counterfactual Policy": 0.822,
+      "Relative Improvement": "+11.0%"
+    },
+    {
+      "Decision Metric": "Stockout rate (lower is better)",
+      "Baseline Policy": 0.01,
+      "Proposed Counterfactual Policy": 0.0,
+      "Relative Improvement": "+100.0%"
+    },
+    {
+      "Decision Metric": "Promotion ROI (rev per promoted item)",
+      "Baseline Policy": -2816.17,
+      "Proposed Counterfactual Policy": -876.557,
+      "Relative Improvement": "+68.9%"
+    },
+    {
+      "Decision Metric": "Demand-forecast R\u00b2",
+      "Baseline Policy": 0.019,
+      "Proposed Counterfactual Policy": 0.519,
+      "Relative Improvement": "+2680.6%"
+    }
+  ],
+  "table_4_3": [
+    {
+      "price_change": "+3%",
+      "promotion_level": "0%",
+      "inventory_extra": "+30%",
+      "rev_change": "+1.26%",
+      "stockout_rate": "0.0%",
+      "score": 0.0126
+    },
+    {
+      "price_change": "+3%",
+      "promotion_level": "0%",
+      "inventory_extra": "+20%",
+      "rev_change": "+1.26%",
+      "stockout_rate": "0.0%",
+      "score": 0.0126
+    },
+    {
+      "price_change": "+3%",
+      "promotion_level": "0%",
+      "inventory_extra": "+0%",
+      "rev_change": "+1.26%",
+      "stockout_rate": "0.0%",
+      "score": 0.0126
+    },
+    {
+      "price_change": "+3%",
+      "promotion_level": "0%",
+      "inventory_extra": "+10%",
+      "rev_change": "+1.26%",
+      "stockout_rate": "0.0%",
+      "score": 0.0126
+    },
+    {
+      "price_change": "+0%",
+      "promotion_level": "0%",
+      "inventory_extra": "+10%",
+      "rev_change": "+0.28%",
+      "stockout_rate": "0.0%",
+      "score": 0.0028
+    }
+  ]
+}

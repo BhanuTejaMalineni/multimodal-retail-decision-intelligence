@@ -1,0 +1,5 @@
+Intervention Variable,Outcome Variable,Estimated Effect (%),95% CI,p-value
+10% price reduction,Demand,0.94,"[0.28, 1.68]",0.0432
+Promotion display,Click-through rate,23.11,"[-49.45, 114.28]",0.5769
+Improved review rating,Conversion rate,-15.47,"[-64.81, 34.51]",0.5378
+Shelf visibility increase,Basket size,-0.0,"[-0.01, 0.01]",0.987

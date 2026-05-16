@@ -1,0 +1,4 @@
+Model,ECE (↓),Prediction Variance (↓),Confidence Drift (↓),Stability Score (↑)
+Multimodal Transformer,0.097,5.548,0.034,0.935
+GNN + Multimodal,0.066,5.544,0.035,0.95
+Proposed Framework,0.054,5.542,0.035,0.955

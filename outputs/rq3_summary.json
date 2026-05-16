@@ -1,0 +1,53 @@
+{
+  "rq": "RQ3",
+  "table_3_1": [
+    {
+      "Intervention Variable": "10% price reduction",
+      "Outcome Variable": "Demand",
+      "Estimated Effect (%)": 0.94,
+      "95% CI": "[0.28, 1.68]",
+      "p-value": 0.0432
+    },
+    {
+      "Intervention Variable": "Promotion display",
+      "Outcome Variable": "Click-through rate",
+      "Estimated Effect (%)": 23.11,
+      "95% CI": "[-49.45, 114.28]",
+      "p-value": 0.5769
+    },
+    {
+      "Intervention Variable": "Improved review rating",
+      "Outcome Variable": "Conversion rate",
+      "Estimated Effect (%)": -15.47,
+      "95% CI": "[-64.81, 34.51]",
+      "p-value": 0.5378
+    },
+    {
+      "Intervention Variable": "Shelf visibility increase",
+      "Outcome Variable": "Basket size",
+      "Estimated Effect (%)": -0.0,
+      "95% CI": "[-0.01, 0.01]",
+      "p-value": 0.987
+    }
+  ],
+  "table_3_2": [
+    {
+      "Metric": "Precision of discovered edges",
+      "Value": 0.333
+    },
+    {
+      "Metric": "Recall of expected edges",
+      "Value": 0.133
+    },
+    {
+      "Metric": "Structural Hamming Distance",
+      "Value": 17.0
+    },
+    {
+      "Metric": "Expert agreement score (F1)",
+      "Value": 0.19
+    }
+  ],
+  "n_gt_edges": 15,
+  "n_pred_edges": 6
+}

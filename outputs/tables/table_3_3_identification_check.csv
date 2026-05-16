@@ -1,0 +1,4 @@
+Effect,Treatment,Outcome,Adjustment set,Identified via backdoor?,Strategy
+Promotion → Demand,Promotion,Demand,"Price, Visibility, Reviews, Engagement",Yes,Backdoor adjustment + linear regression
+Price → Demand,Price,Demand,"Promotion, Visibility, Reviews, Engagement",Yes,Backdoor adjustment + linear regression
+Visibility → Conversion,Visibility,Conversion,"Price, Promotion, Reviews, Engagement",Yes,Backdoor adjustment + linear regression

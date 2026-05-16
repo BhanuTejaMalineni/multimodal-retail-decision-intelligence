@@ -1,0 +1,5 @@
+Relation Type,Gain in NDCG@10,Gain in F1,Gain in Utility Score
+User–Product,0.0221,0.0199,0.0243
+Product–Category,0.0075,0.0067,0.0067
+Session–Product,0.017,0.0153,0.0188
+Promotion–Product,0.0012,0.0011,0.0021

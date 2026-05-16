@@ -1,0 +1,7 @@
+Model,Demand Forecast MAE (↓),Recommendation NDCG@10 (↑),Promotion Response F1 (↑),Decision Utility Score (↑)
+LSTM baseline,0.1318,0.9767,0.5839,0.5381
+Multimodal Transformer,0.0931,0.9767,0.4886,0.5598
+GNN + Multimodal,0.0606,0.9967,0.5659,0.5896
+LightGCN,0.0617,0.9999,0.5659,0.5573
+SASRec,0.1324,0.7975,0.5839,0.5381
+Proposed Framework,0.0422,0.9994,0.6905,0.8767

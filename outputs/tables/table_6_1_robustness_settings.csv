@@ -1,0 +1,5 @@
+Setting,Multimodal Transformer,GNN + Multimodal,Proposed Framework
+Standard setting,0.8521,0.8637,0.8719
+Sparse transactions,0.8016,0.8129,0.8387
+Noisy text reviews,0.8112,0.8282,0.8468
+Shifted product domain,0.8184,0.826,0.8352

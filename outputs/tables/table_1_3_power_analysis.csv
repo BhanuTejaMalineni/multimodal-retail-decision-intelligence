@@ -1,0 +1,5 @@
+Metric,n (seeds),Std (Proposed),MDE (Cohen's d),MDE (in metric units)
+Demand MAE,5,0.0013,1.662,0.0021
+NDCG@10,5,0.0007,1.662,0.0011
+Promo F1,5,0.0478,1.662,0.0794
+Decision Utility,5,0.0337,1.662,0.056

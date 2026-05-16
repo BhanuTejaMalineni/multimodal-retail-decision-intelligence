@@ -1,0 +1,23 @@
+{
+  "preset": "medium",
+  "device": "mps",
+  "project_root": "/Users/bhanutejamalineni/Thesis",
+  "prepared_dir": "/Users/bhanutejamalineni/Thesis/outputs/prepared",
+  "files": [
+    "amazon_merged.parquet",
+    "amazon_product_embeddings.parquet",
+    "ic_basket.parquet",
+    "ic_orders.parquet",
+    "ic_product_features.parquet",
+    "ic_products.parquet",
+    "retail_variables.parquet",
+    "rr_cat.parquet",
+    "rr_events.parquet",
+    "rr_item_cats.parquet",
+    "rr_prices.parquet",
+    "stress_noisy.parquet",
+    "stress_shift_test.parquet",
+    "stress_shift_train.parquet",
+    "stress_sparse.parquet"
+  ]
+}

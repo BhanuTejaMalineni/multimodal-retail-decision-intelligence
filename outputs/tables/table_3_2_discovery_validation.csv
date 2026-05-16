@@ -1,0 +1,5 @@
+Metric,Value
+Precision of discovered edges,0.333
+Recall of expected edges,0.133
+Structural Hamming Distance,17.0
+Expert agreement score (F1),0.19
