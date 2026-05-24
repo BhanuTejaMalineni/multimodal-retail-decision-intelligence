@@ -1,4 +1,4 @@
-Hyperparameter,Value,DI mean (3 seeds),DI std,Δ from default DI
+Hyperparameter,Value,Proxy DI mean (3 seeds),Proxy DI std,Δ from default Proxy DI
 gnn_dim,16.0,0.9141,0.0019,0.4141
 gnn_dim,32.0,0.8759,0.0018,0.3759
 gnn_dim,64.0,0.9016,0.0018,0.4016

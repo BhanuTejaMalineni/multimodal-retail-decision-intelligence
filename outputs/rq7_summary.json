@@ -54,8 +54,8 @@
     {
       "Outcome Area": "Campaign response prediction accuracy",
       "Baseline": 0.74,
-      "Proposed Framework": 1.08,
-      "Improvement": "+45.9%"
+      "Proposed Framework": 0.822,
+      "Improvement": "+11.1%"
     },
     {
       "Outcome Area": "Pricing decision acceptance rate",

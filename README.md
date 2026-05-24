@@ -7,23 +7,26 @@ This repository contains the implementation, experiments, and research artifacts
 **"Multimodal Retail Decision Intelligence Using Graph Neural Networks and Large Language Models"**
 
 The project investigates how multimodal retail data can be integrated using:
+
 - Graph Neural Networks (GNNs)
 - Large Language Models (LLMs)
 - Multimodal embeddings
-- Explainable AI techniques
+- Explanation-oriented evaluation techniques
 
 The system combines:
+
 - transactional data
 - product metadata
 - textual reviews
 - product images
 - graph relationships
 
-to improve retail decision intelligence tasks such as:
+to support retail decision intelligence tasks such as:
+
 - recommendation systems
 - demand prediction
 - customer behavior analysis
-- explainable retail analytics
+- retail analytics evaluation
 
 ---
 
@@ -33,7 +36,7 @@ The research focuses on the following objectives:
 
 1. Construct multimodal retail knowledge representations
 2. Learn graph-based relationships between retail entities
-3. Integrate LLM-driven semantic understanding
+3. Integrate LLM-assisted semantic understanding
 4. Improve recommendation and predictive performance
 5. Provide interpretable retail intelligence outputs
 
@@ -42,7 +45,7 @@ The research focuses on the following objectives:
 # Repository Structure
 
 ```text
-Thesis/
+multimodal-retail-decision-intelligence/
 │
 ├── data/
 │   ├── raw/
@@ -57,19 +60,14 @@ Thesis/
 │   ├── RQ5_explainability.ipynb
 │   └── RQ6_evaluation.ipynb
 │
-├── src/
-│   ├── data/
-│   ├── embeddings/
-│   ├── graphs/
-│   ├── models/
-│   ├── evaluation/
-│   └── utils/
-│
 ├── outputs/
 │   ├── figures/
 │   ├── tables/
 │   ├── logs/
 │   └── models/
+│
+├── docs/
+│   └── architecture/
 │
 ├── figures/
 ├── references/
@@ -78,9 +76,18 @@ Thesis/
 ├── environment.yml
 ├── DATASETS.md
 ├── LICENSE
-├── .gitignore
 └── README.md
 ```
+
+---
+
+# Experimental Workflow
+
+This repository follows a notebook-based research workflow.
+
+Each notebook corresponds to a distinct research question (RQ) or experimental stage in the thesis pipeline. The notebooks are designed to be executed sequentially for full reproducibility of the reported experiments and outputs.
+
+The implementation prioritizes transparency and research reproducibility over production-oriented software modularization.
 
 ---
 
@@ -88,15 +95,25 @@ Thesis/
 
 This project uses the following public datasets:
 
-| Dataset | Purpose |
-|---|---|
-| RetailRocket | User interaction modeling |
-| Amazon Product Data | Reviews, metadata, multimodal product understanding |
-| Instacart Market Basket | Basket and purchasing behavior analysis |
+| Dataset | Purpose | Link |
+|---|---|---|
+| Amazon Reviews 2023 | Reviews, metadata, multimodal product understanding | https://amazon-reviews-2023.github.io/ |
+| RetailRocket Ecommerce Dataset | User interaction modeling | https://www.kaggle.com/datasets/retailrocket/ecommerce-dataset |
+| Instacart Online Grocery Basket Analysis | Basket and purchasing behavior analysis | https://www.kaggle.com/datasets/yasserh/instacart-online-grocery-basket-analysis-dataset |
 
-Dataset download instructions are provided in:
+Dataset download instructions are also provided in:
 
-`DATASETS.md`
+```text
+DATASETS.md
+```
+
+Due to dataset licensing and storage constraints, raw datasets are not distributed directly in this repository.
+
+Downloaded datasets should be placed inside:
+
+```text
+data/raw/
+```
 
 ---
 
@@ -109,7 +126,7 @@ The workflow includes:
 3. Multimodal embedding generation
 4. Graph construction
 5. Graph Neural Network training
-6. LLM-based semantic reasoning
+6. LLM-assisted semantic analysis and explanation generation
 7. Explainability and evaluation
 
 ---
@@ -117,27 +134,31 @@ The workflow includes:
 # Technologies Used
 
 ## Programming
+
 - Python 3.11+
 
 ## Machine Learning / Deep Learning
+
 - PyTorch
 - PyTorch Geometric
 - Scikit-learn
 - XGBoost
 
 ## NLP / LLMs
+
 - Transformers
 - SentenceTransformers
 - Hugging Face
 
 ## Data Processing
+
 - Pandas
 - NumPy
 - Dask
 
 ## Visualization
+
 - Matplotlib
-- Seaborn
 - Plotly
 
 ---
@@ -147,8 +168,8 @@ The workflow includes:
 ## Clone Repository
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
-cd Thesis
+git clone https://github.com/BhanuTejaMalineni/multimodal-retail-decision-intelligence.git
+cd multimodal-retail-decision-intelligence
 ```
 
 ---
@@ -176,11 +197,12 @@ pip install -r requirements.txt
 
 Run:
 
-```bash
+```text
 RQ0_data_preparation.ipynb
 ```
 
 This notebook:
+
 - cleans datasets
 - aligns schemas
 - generates processed outputs
@@ -196,20 +218,24 @@ Each research question has an independent notebook:
 | RQ1_multimodal_embeddings.ipynb | Multimodal feature generation |
 | RQ2_graph_construction.ipynb | Retail graph creation |
 | RQ3_gnn_modeling.ipynb | Graph neural network experiments |
-| RQ4_llm_reasoning.ipynb | LLM-enhanced retail reasoning |
-| RQ5_explainability.ipynb | Explainability analysis |
-| RQ6_evaluation.ipynb | Performance evaluation |
+| RQ4_llm_reasoning.ipynb | LLM-assisted semantic analysis |
+| RQ5_explainability.ipynb | Explanation evaluation |
+| RQ6_evaluation.ipynb | Performance and robustness evaluation |
+
+For full reproducibility, notebooks should be executed sequentially.
 
 ---
 
 # Outputs
 
 Generated outputs include:
-- trained models
-- figures
-- evaluation tables
-- embeddings
-- logs
+
+- intermediate multimodal embeddings
+- graph representations
+- trained experimental models
+- evaluation summaries
+- figures and tables
+- experiment logs
 
 Stored in:
 
@@ -222,6 +248,7 @@ outputs/
 # Hardware Used
 
 Development environment:
+
 - Apple Mac Mini M4
 - 24GB RAM
 - macOS
@@ -230,10 +257,31 @@ Development environment:
 
 # Reproducibility
 
-To ensure reproducibility:
-- fixed random seeds are used
-- notebook execution order is modular
-- outputs are version-controlled where feasible
+To improve experimental reproducibility:
+
+- fixed random seeds are used where applicable
+- notebook execution order is documented
+- intermediate outputs are stored in the `outputs/` directory
+- all experiments are based on publicly available datasets
+- dependency versions are specified in `requirements.txt` and `environment.yml`
+
+For full reproduction of results, execute notebooks sequentially from:
+
+```text
+RQ0_data_preparation.ipynb
+```
+
+through:
+
+```text
+RQ6_evaluation.ipynb
+```
+
+---
+
+# Research Scope
+
+This repository represents a research-oriented prototype developed for academic experimentation and evaluation. It is not intended as a production retail deployment system.
 
 ---
 
@@ -254,7 +302,7 @@ If using this work in academic research, please cite:
 
 # License
 
-This project is for academic and research purposes.
+This project is intended for academic and research purposes.
 
 ---
 
